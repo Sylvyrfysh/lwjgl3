@@ -52,6 +52,7 @@ enum class Module(
     CUDA("binding.cuda", "org.lwjgl.cuda", CallingConvention.STDCALL, arrayOverloads = false),
     EGL("binding.egl", "org.lwjgl.egl", CallingConvention.STDCALL),
     GLFW("binding.glfw", "org.lwjgl.glfw"),
+    HWLOC("binding,hwloc", "org.lwjgl.util.hwloc"),
     JAWT("binding.jawt", "org.lwjgl.system.jawt", CallingConvention.STDCALL),
     JEMALLOC("binding.jemalloc", "org.lwjgl.system.jemalloc"),
     LIBDIVIDE("binding.libdivide", "org.lwjgl.util.libdivide", arrayOverloads = false),
